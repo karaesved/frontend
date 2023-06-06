@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Camda OĞlum</title>
+    <!-- . koyunca class # koyunca id anlamına gelir,
+    css'i aktif etmek için head tagının içine style açıyoruz-->
+    <style>
+        .divOzellik {
+            width: 100%;
+            background: scroll;
+            background-color: aquamarine;
+            height: 150px;
+            text-shadow: 10px;
+            text-align: center;
+        }
+
+        .divOzellik2 {
+            width: 100%;
+            background: scroll;
+            background-color: rgb(131, 255, 127);
+            height: 115px;
+            text-shadow: 10px;
+            text-align: center;
+        }
+
+        .divForm  {
+            width: 320px;
+            background-color: #46a380;
+            border: 4px solid pink;
+
+            
+        }
+        .youtube{
+            text-align: center;
+            height: 600px;
+            width: 66%;
+            background-color: #46a380;
+            border-radius: 10% 10% 10% 10%;
+            display: inline-block;
+        }
+        .resim{
+           background-position: center;
+           background-size: cover;
+           border-radius: 15%;
+            width: 33%;
+            height:600px;
+            background-image:url(resimler/think-twice-code-once.jpg);
+            display: inline-block;
+        }
+        
+    </style>
+</head>
+
+<body>
+    
+    <div class="resim">
+        
+</div>
+<!--
+     none
+    hidden
+    dotted
+    dashed
+    solid
+    double
+    groove
+    ridge
+    inset
+    outset
+    initial
+    inherit;
+-->
+    
+
+  
+  
+    
+    <iframe class="youtube" src="https://www.youtube.com/embed/NoeIUIA5IkY" title="YouTube video player" frameborder="0" 
+     allowfullscreen></iframe>
+
+
+
+
+
+    <div class="divOzellik">
+        <h1 style="text-align: left;">Web Siteme Hoşgeldiniz</h1>
+        <img src="resimler/oglumcamda.jpg" height="200"
+            style="top: auto; border-radius: 100px; border: 3px solid rgb(0, 255, 21);" alt="">
+
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, aspernatur.</p>
+
+    </div>
+    <div class="divOzellik2">Muhammed</div><br><br><br><br><br><br><br><br>
+
+    <form action="https://www.youtube.com/">
+        <input type="text" placeholder="isminiz">
+        <input type="password" placeholder="şifreniz">
+        <input type="email" placeholder="mail adresinizi giriniz.."><br>
+        kitap okumak <input type="checkbox"> <br>
+        spor yapmak<input type="checkbox"> <br>
+        balığa gitmek<input type="checkbox"> <br>
+        ava gitmek<input type="checkbox"> <br>
+        yazılım çalışmak<input type="checkbox"> <br>
+        Kadin <input type="radio" name="cinsiyetRadio" checked="true"> <br>
+        Erkek <input type="radio" name="cinsiyetRadio">
+        <input type="file"><br><br>
+        <input type="submit" value="gonder">    
+        <input type="reset" value="temizle"><br>
+        <textarea name="mesajInput" id="mesajArea" cols="70" rows="10"></textarea>
+        <br>
+        İÇECEKLER <br>
+        <br>içecek seçiniz:
+        <select name="içecekler" id="drinks">
+            <option value="">su</option>
+            <option value="">çay</option>
+            <option value="">soda</option>
+            <option value="">oralet</option>
+            <option value="">kahve</option>
+            <option value="">limonata</option>
+        </select>
+        <video src="video/Baştan Sona Dart Programlama Dili (7+ saat).mp4" width="500" height="500" controls></video>
+        <br><br><br><br><br>
+        
+        
+
+    </form>
+
+    <!---PROJE ÇALIŞMASI-->
+    <div class="divForm" style="border-radius: 5px;" >
+        <form >
+                        <table>
+                <tr>
+                    <td>İsminiz:</td>
+                    <td><input type="text" placeholder="isminiz"></td>
+                </tr>
+                <tr>
+                    <td>Soyisminiz:</td>
+                    <td><input type="text" placeholder="soyisminiz"></td>
+                </tr>
+                <tr>
+                    <td>Email adresiniz:</td>
+                    <td><input type="email" placeholder="mailinizi giriniz"></td>
+                </tr>
+                <tr>
+                    <td>Sifreniz:</td>
+                    <td><input type="password" placeholder="sifrenizi girin"></td>
+                </tr>
+                <tr>
+                    <td>Cinsiyetiniz:</td>
+                    <td>Erkek:<input type="radio" name="cinsiyetSeç" checked="true">
+                        Bayan:<input type="radio" name="cinsiyetSeç"></td>
+                </tr>
+                <tr>
+                    <th>Doğum Tarihiniz:</th>
+                    <th><input type="date"></th>
+
+                </tr>
+
+
+            </table>
+            
+            <br><br>
+            <table>
+                <tr>
+
+                    <th colspan="2">HOBİLER</th>
+                </tr>
+                <tr>
+                    <td>kitap okumak</td>
+                    <td><input type="checkbox"></td>
+                </tr>
+                <tr>
+                    <td>kayak yapmak</td>
+                    <td><input type="checkbox"></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><input type="file"></td>
+                </tr>
+                <tr>
+
+                    <td colspan="2"><textarea name="" id="" cols="30" rows="10"
+                            placeholder="mesajınızı yazın.."></textarea>
+                    </td>
+                </tr>
+
+            </table>
+
+            <br><br><br><br>
+        </form>
+    </div>
+</body>
+
+</html>
